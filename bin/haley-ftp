@@ -1,0 +1,1 @@
+java -cp target/haley-ftp-0.0.1-fat.jar ai.haley.ftp.client.HaleyFtpCommand "$@"

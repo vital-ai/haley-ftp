@@ -1,0 +1,8 @@
+
+appID: "haley-saas"
+
+endpointURL: "https://haley-saas-server.vital.ai/eventbus/websocket"
+
+username: "john@example.org"
+
+password: "password"
