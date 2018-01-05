@@ -1,1 +1,6 @@
-java -cp target/haley-ftp-0.0.1-fat.jar ai.haley.ftp.client.HaleyFtpCommand "$@"
+#!/bin/bash
+SCRIPT=$(greadlink -f "$0")
+BINPATH=$(dirname "$SCRIPT")
+HOMEDIR=$(dirname "$BINPATH")
+
+java -cp $HOMEDIR/target/haley-ftp-0.0.1-fat.jar ai.haley.ftp.client.HaleyFtpCommand "$@"
