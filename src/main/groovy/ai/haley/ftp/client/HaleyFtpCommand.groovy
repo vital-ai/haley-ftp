@@ -289,7 +289,7 @@ class HaleyFtpCommand {
 			
 				filter = options.f ? options.f : null
 			
-				Pattern pattern = Pattern.compile(filter)
+				Pattern pattern = filter ? Pattern.compile(filter) : null
 				println "filter: ${filter}"
 			
 				File dir = new File(d)
